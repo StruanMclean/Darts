@@ -1,0 +1,11 @@
+train: /Users/struanmclean/Documents/Darts/datasets/train
+val: /Users/struanmclean/Documents/Darts/datasets/val
+
+nc: 5
+
+names:
+  0: Dart
+  1: Cal1
+  2: Cal2
+  3: Cal3
+  4: Cal4

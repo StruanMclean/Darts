@@ -1,0 +1,15 @@
+dataset/*
+
+models/yolov8n.pt
+all_labels.tsv
+*.pyc
+*images/*
+*labels/*
+# *weights/*
+*.pt
+!runs/detect/SecondRun/weights/best.pt
+*.out*
+*/images
+*dataset/*
+datasets/train/
+datasets/val/
