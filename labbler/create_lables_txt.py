@@ -53,8 +53,8 @@ def save_labels_as_txt_file(labels, label_path, directory,filename):
          f.writelines(labels)
 
 if __name__ == "__main__":
-    label_path = 'datasets/labels'
-    with open("all_labels.tsv", "r") as f: #all_labels.tsv is made by "unpickle.py"
+    label_path = '/content/Darts/datasets/labels'
+    with open("/content/Darts/all_labels.tsv", "r") as f: #all_labels.tsv is made by "unpickle.py"
         all = f.readlines()
         for line in all:
             try:
